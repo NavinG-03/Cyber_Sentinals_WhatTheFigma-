@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Products */
+.products {
+    padding: 50px 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contact */
+.contact {
+    background: #eee;
+    padding: 40px 20px;
+}
+
+.contact input, .contact textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+}
